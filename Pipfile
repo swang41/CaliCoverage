@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-ipykernel = "*"
 pandas = "*"
 requests = "*"
 beautifulsoup4 = "*"
 lxml = "*"
+ipykernel = "*"
 
 [dev-packages]
 
