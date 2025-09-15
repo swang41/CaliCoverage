@@ -15,5 +15,5 @@
     "PIPENV_VENV_IN_PROJECT": "1"
   },
   "postCreateCommand": "pipenv install ipykernel && pipenv run python -m ipykernel install --user --name=my-pipenv-kernel --display-name='Pipenv Environment'",
-  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder} && git lfs install --local"
 }
