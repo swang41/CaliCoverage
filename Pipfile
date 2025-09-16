@@ -9,6 +9,11 @@ requests = "*"
 beautifulsoup4 = "*"
 lxml = "*"
 ipykernel = "*"
+minsearch = "*"
+openai = "*"
+flask = "*"
+scikit-learn = "*"
+dotenv = "*"
 
 [dev-packages]
 
