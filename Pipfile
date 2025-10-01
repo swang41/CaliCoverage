@@ -8,12 +8,16 @@ pandas = "*"
 requests = "*"
 beautifulsoup4 = "*"
 lxml = "*"
-ipykernel = "*"
 minsearch = "*"
 openai = "*"
 flask = "*"
 scikit-learn = "*"
 dotenv = "*"
+pgcli = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+questionary = "*"
+ipykernel = "*"
 
 [dev-packages]
 
